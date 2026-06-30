@@ -1,0 +1,338 @@
+{
+  "products": [
+   {
+  "id": 10001,
+  "name": "Basics To Advanced In React",
+  "overview": "Master React.js from beginner to advanced with a hands-on approach. Learn components, hooks, routing, state management, API integration, authentication, performance optimization, and build real-world projects.",
+  "long_description": "Master React.js with this comprehensive guide designed for beginners, students, and frontend developers. Starting with the fundamentals of JSX, components, props, and state, this book gradually introduces advanced concepts including React Hooks, Context API, React Router, API integration with Axios, authentication using JWT, Redux Toolkit, custom hooks, performance optimization, lazy loading, testing, and deployment. Every chapter includes practical examples and real-world projects that reinforce concepts through hands-on coding. You'll build responsive, scalable, and production-ready applications while following industry best practices. Whether you're preparing for technical interviews, enhancing your frontend skills, or aiming to become a professional React developer, this book provides a complete learning path from basics to advanced React development.",
+  "price": 5,
+  "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+  "image_local": "/assets/images/10001.avif",
+  "rating": 5,
+  "in_stock": true,
+  "size": 5,
+  "best_seller": true
+},
+    {
+  "id": 10002,
+  "name": "Django Framework for Beginners",
+  "overview": "Learn Django from the ground up and build secure, scalable web applications using Python. Perfect for beginners who want to master backend development through practical examples and projects.",
+  "long_description": "This comprehensive guide introduces you to Django, one of the world's most popular Python web frameworks. Starting with installation and project setup, you'll learn models, views, templates, URL routing, forms, authentication, CRUD operations, file uploads, database relationships, REST APIs, and deployment. Every chapter includes hands-on projects that help reinforce concepts while following industry best practices. Whether you're building blogs, e-commerce websites, or business applications, this book provides everything you need to become a confident Django developer.",
+  "price": 19,
+  "poster": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+  "image_local": "/assets/images/10002.avif",
+  "rating": 5,
+  "in_stock": true,
+  "size": 2,
+  "best_seller": false
+},
+{
+  "id": 10003,
+  "name": "The Future of Design Systems",
+  "overview": "Discover how modern design systems help teams build consistent, scalable, and user-friendly digital products with reusable components and design principles.",
+  "long_description": "Design systems are transforming the way digital products are built. This book explores the foundations of scalable UI design, reusable components, design tokens, accessibility, typography, color systems, spacing, documentation, and collaboration between designers and developers. Learn how leading companies create consistent user experiences while improving productivity across teams. Ideal for UI/UX designers, frontend developers, and product teams looking to build modern applications.",
+  "price": 29,
+  "poster": "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+  "image_local": "/assets/images/10003.avif",
+  "rating": 3,
+  "in_stock": true,
+  "size": 1,
+  "best_seller": false
+},
+{
+  "id": 10004,
+  "name": "The Complete Guide to Backend Development",
+  "overview": "Master backend development by building secure, scalable, and high-performance server-side applications using modern technologies and best practices.",
+  "long_description": "This book covers everything you need to become a backend developer. Learn Node.js, Express.js, REST APIs, authentication, authorization, databases, MongoDB, SQL, file uploads, cloud storage, caching, security, performance optimization, logging, deployment, and scalable architecture. Through practical projects and real-world examples, you'll gain the skills required to develop production-ready backend systems used in modern web applications.",
+  "price": 99,
+  "poster": "https://images.unsplash.com/photo-1595617795501-9661aafda72a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+  "image_local": "/assets/images/10004.avif",
+  "rating": 5,
+  "in_stock": true,
+  "size": 7,
+  "best_seller": true
+},
+    {
+  "id": 10005,
+  "name": "Build a Blockchain from Scratch in Go",
+  "overview": "Learn blockchain development from the ground up by building your own blockchain using the Go programming language with practical, hands-on examples.",
+  "long_description": "This book provides a practical introduction to blockchain technology by guiding you through building your own blockchain from scratch using Go. Learn how blocks are created, how transactions are verified, how cryptographic hashing works, and how distributed ledgers maintain data integrity. You'll also explore Proof of Work, mining, digital wallets, peer-to-peer networking, consensus algorithms, smart contracts, and blockchain security. With step-by-step projects and clean code examples, this book is ideal for developers looking to understand the technology behind cryptocurrencies and decentralized applications.",
+  "price": 19,
+  "poster": "https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+  "image_local": "/assets/images/10005.avif",
+  "rating": 3,
+  "in_stock": true,
+  "size": 3,
+  "best_seller": false
+},
+{
+  "id": 10006,
+  "name": "Frontend Fastlane Plan With Projects",
+  "overview": "Become a professional frontend developer by mastering HTML, CSS, JavaScript, React, Tailwind CSS, and modern development tools through real-world projects.",
+  "long_description": "Designed for beginners and aspiring frontend developers, this book follows a project-based learning approach to help you master modern web development. Learn responsive web design, CSS Flexbox, Grid, JavaScript ES6+, React.js, Tailwind CSS, API integration, Git, GitHub, deployment, and performance optimization. Build portfolio-worthy projects including landing pages, dashboards, e-commerce websites, and full React applications while learning industry best practices and interview-ready skills.",
+  "price": 99,
+  "poster": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+  "image_local": "/assets/images/10006.avif",
+  "rating": 5,
+  "in_stock": true,
+  "size": 10,
+  "best_seller": false
+},
+{
+  "id": 10007,
+  "name": "Master the Code Review",
+  "overview": "Improve your coding quality by learning professional code review techniques, clean coding standards, and software engineering best practices.",
+  "long_description": "Code reviews are an essential part of modern software development. This book teaches you how to write clean, maintainable, and efficient code while reviewing pull requests like an experienced software engineer. Learn debugging strategies, design principles, testing, performance optimization, security checks, code smells, documentation, and effective team collaboration. Ideal for developers preparing for professional software engineering roles.",
+  "price": 19,
+  "poster": "https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+  "image_local": "/assets/images/10007.avif",
+  "rating": 5,
+  "in_stock": true,
+  "size": 2,
+  "best_seller": false
+},
+{
+  "id": 10008,
+  "name": "JavaScript Basics To Advance With Shubham",
+  "overview": "Master JavaScript from the fundamentals to advanced concepts with real-world projects, coding challenges, and interview-focused examples.",
+  "long_description": "Whether you're just starting your programming journey or looking to strengthen your JavaScript skills, this book covers everything from variables, data types, operators, functions, arrays, and objects to advanced topics such as closures, promises, async/await, ES6 modules, event loop, prototypes, object-oriented programming, DOM manipulation, APIs, and error handling. Build interactive projects while learning modern JavaScript techniques used in professional frontend development and technical interviews.",
+  "price": 29,
+  "poster": "https://images.unsplash.com/photo-1613490900233-141c5560d75d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+  "image_local": "/assets/images/10008.avif",
+  "rating": 5,
+  "in_stock": true,
+  "size": 3,
+  "best_seller": true
+},
+    {
+      "id": 10009,
+      "name": "Python Deep Dive With Projects",
+      "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+      "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1624953587687-daf255b6b80a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10009.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 3,
+      "best_seller": false
+    },
+    {
+      "id": 10010,
+      "name": "Mastering Software Technique",
+      "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+      "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10010.avif",
+      "rating": 4,
+      "in_stock": true,
+      "size": 1,
+      "best_seller": false
+    },
+    {
+      "id": 10011,
+      "name": "Web Development Foundation",
+      "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+      "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10011.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 3,
+      "best_seller": true
+    },
+    {
+      "id": 10012,
+      "name": "Mastering Git and GitHub - A Practical Guide",
+      "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+      "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+      "price": 9,
+      "poster": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10012.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 1,
+      "best_seller": false
+    },
+    {
+      "id": 10013,
+      "name": "Everything About React v16",
+      "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+      "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10013.avif",
+      "rating": 4,
+      "in_stock": false,
+      "size": 3,
+      "best_seller": false
+    },
+    {
+      "id": 10014,
+      "name": "Diving Deep With Python 2.7",
+      "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+      "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10014.avif",
+      "rating": 4,
+      "in_stock": false,
+      "size": 3,
+      "best_seller": false
+    },
+    {
+      "id": 10015,
+      "name": "Kickstart Your UI Design Career",
+      "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+      "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+      "price": 9,
+      "poster": "https://images.unsplash.com/photo-1587440871875-191322ee64b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10015.avif",
+      "rating": 2,
+      "in_stock": false,
+      "size": 1,
+      "best_seller": false
+    }
+  ],
+  "featured_products": [
+    {
+      "id": 10004,
+      "name": "The Complete Guide to Backend Development",
+      "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+      "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+      "price": 99,
+      "poster": "https://images.unsplash.com/photo-1595617795501-9661aafda72a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10004.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 7,
+      "best_seller": true
+    },
+    {
+      "id": 10006,
+      "name": "Frontend Fastlane Plan With Projects",
+      "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+      "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+      "price": 99,
+      "poster": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10006.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 10,
+      "best_seller": false
+    },
+    {
+      "id": 10008,
+      "name": "JavaScript Basics To Advance With Shubham",
+      "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+      "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1613490900233-141c5560d75d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10008.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 3,
+      "best_seller": true
+    }
+  ],
+  "orders": [
+    {
+      "cartList": [
+        {
+          "id": 10001,
+          "name": "Basics To Advanced In React",
+          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10001.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        },
+        {
+          "id": 10008,
+          "name": "JavaScript Basics To Advance With Shubham",
+          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1613490900233-141c5560d75d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10008.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 3,
+          "best_seller": true
+        }
+      ],
+      "amount_paid": 58,
+      "quantity": 2,
+      "user": {
+        "name": "Renuka Yadav",
+        "email": "renuka@example.com",
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "cartList": [
+        {
+          "id": 10001,
+          "name": "Basics To Advanced In React",
+          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+          "price": 5,
+          "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10001.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        },
+        {
+          "id": 10010,
+          "name": "Mastering Software Technique",
+          "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error unde quisquam magni vel eligendi nam.",
+          "long_description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta aut, vel ipsum maxime quam quia, quaerat tempore minus odio exercitationem illum et eos, quas ipsa aperiam magnam officiis libero expedita quo voluptas deleniti sit dolore? Praesentium tempora cumque facere consectetur quia, molestiae quam, accusamus eius corrupti laudantium aliquid! Tempore laudantium unde labore voluptates repellat, dignissimos aperiam ad ipsum laborum recusandae voluptatem non dolore. Reiciendis cum quo illum. Dolorem, molestiae corporis.",
+          "price": 19,
+          "poster": "https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10010.avif",
+          "rating": 4,
+          "in_stock": true,
+          "size": 1,
+          "best_seller": false
+        }
+      ],
+      "amount_paid": 24,
+      "quantity": 2,
+      "user": {
+        "name": "RENUKA YADAV",
+        "email": "renuka121yadav@gmail.com",
+        "id": 2
+      },
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "email": "shubham@example",
+      "password": "$2a$10$K9aEH3/VDb2QU/EsjrHGJO7X5JxCcg0bMAnBtyT3kBW9FL7FnnygO",
+      "name": "Shubham Sarda",
+      "id": 1
+    },
+    {
+      "email": "renuka121yadav@gmail.com",
+      "password": "$2a$10$pHZmMX6CzfgKNpEb8WjD8erW99wuhgMMp1Ivy3ulJndd6HxeKam7K",
+      "name": "RENUKA YADAV",
+      "id": 2
+    },
+    {
+      "email": "aryan23@gmail.com",
+      "password": "$2a$10$ZTJmclbGf5vT7AB1Af2Phu9iFJv9N9daS3eA0ET7lawrYxF4QZNJy",
+      "name": "aryan ",
+      "id": 3
+    }
+  ]
+}
