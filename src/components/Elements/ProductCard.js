@@ -8,7 +8,7 @@ import { Rating } from "./Rating";
 
 export const ProductCard = ({product}) => {
     const { cartList, addToCart, removeFromCart } = useCart();
-    const { wishlist, addToWishlist } = useWishlist();
+    const { addToWishlist } = useWishlist();
     const [inCart, setInCart] = useState(false);
     const {id, name, overview, poster, price, rating, best_seller} = product;
 
