@@ -52,26 +52,30 @@ export const Header = () => {
             {/* Hamburger (Mobile Only) */}
             <button
               onClick={() => setMenuOpen(true)}
-              className="md:hidden mr-3 text-2xl text-gray-700 dark:text-white"
+              className="lg:hidden flex items-center justify-center w-10 h-10 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition mr-2"
             >
               <FiMenu />
             </button>
 
             <Link to="/" className="flex items-center">
-              <img src={Logo} className="mr-3 h-10" alt="CodeBook Logo" />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <img
+  src={Logo}
+  alt="CodeBook Logo"
+  className="h-9 w-9 sm:h-10 sm:w-10 rounded object-cover mr-2"
+/>
+              <span className="text-xl sm:text-2xl font-bold whitespace-nowrap dark:text-white">
                 CodeBook
               </span>
             </Link>
           </div>
 
           {/* Right Side Icons */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 sm:gap-4">
 
             {/* Dark Mode */}
             <button
               onClick={() => setDarkMode(!darkMode)}
-              className="cursor-pointer text-2xl text-gray-700 dark:text-white mr-5 hover:text-blue-500 transition"
+              className="text-xl sm:text-2xl text-gray-700 dark:text-white hover:text-blue-500 transition"
             >
               {darkMode ? <FiSun /> : <FiMoon />}
             </button>
@@ -79,15 +83,15 @@ export const Header = () => {
             {/* Search */}
             <span
               onClick={() => setSearchSection(!searchSection)}
-              className="cursor-pointer text-xl text-gray-700 dark:text-white mr-5 bi bi-search"
+              className="cursor-pointer text-lg sm:text-xl text-gray-700 dark:text-white bi bi-search"
             ></span>
 
             {/* Wishlist */}
             <Link
               to="/wishlist"
-              className="relative text-gray-700 dark:text-white mr-5 hover:text-red-500 transition"
+              className="relative text-gray-700 dark:text-white hover:text-red-500 transition"
             >
-              <FiHeart size={22} />
+              <FiHeart className="text-xl sm:text-2xl" />
 
               <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-1 rounded-full">
                 {wishlist.length}
@@ -97,9 +101,9 @@ export const Header = () => {
             {/* Cart */}
             <Link
               to="/cart"
-              className="text-gray-700 dark:text-white mr-5"
+             className="relative text-gray-700 dark:text-white"
             >
-              <span className="text-2xl bi bi-cart-fill relative">
+              <span className="bi bi-cart-fill text-xl sm:text-2xl relative">
                 <span className="text-white text-sm absolute -top-1 left-2.5 bg-rose-500 px-1 rounded-full">
                   {cartList.length}
                 </span>
@@ -109,7 +113,7 @@ export const Header = () => {
             {/* User */}
             <span
               onClick={() => setDropdown(!dropdown)}
-              className="bi bi-person-circle cursor-pointer text-2xl text-gray-700 dark:text-white"
+              className="bi bi-person-circle cursor-pointer text-xl sm:text-2xl text-gray-700 dark:text-white"
             ></span>
 
             {dropdown &&
@@ -136,16 +140,20 @@ export const Header = () => {
 
       {/* Drawer */}
       <div
-        className={`fixed top-0 left-0 h-screen w-72 bg-white dark:bg-gray-900 shadow-xl z-50 transform transition-transform duration-300 ${
+        className={`fixed top-0 left-0 h-screen w-64 sm:w-72 bg-white dark:bg-gray-900 shadow-xl z-50 transform transition-transform duration-300 ${
           menuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
         {/* Close */}
-        <div className="flex justify-end p-5">
-          <button onClick={() => setMenuOpen(false)}>
-            <FiX className="text-2xl dark:text-white" />
-          </button>
-        </div>
+        <div className="flex items-center justify-between p-5 border-b dark:border-gray-700">
+  <h2 className="text-xl font-bold dark:text-white">
+    Menu
+  </h2>
+
+  <button onClick={() => setMenuOpen(false)}>
+    <FiX className="text-2xl dark:text-white" />
+  </button>
+</div>
 
         {/* Menu */}
         <div className="flex flex-col">
