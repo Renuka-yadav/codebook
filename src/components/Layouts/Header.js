@@ -47,7 +47,7 @@ export const Header = () => {
         <div className="border-b border-slate-200 dark:border-b-0 flex justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-3">
           
           {/* Left Side */}
-          <div className="flex items-center">
+          <div className="flex items-center gap-3">
 
             {/* Hamburger (Mobile Only) */}
             <button
@@ -66,7 +66,7 @@ export const Header = () => {
           </div>
 
           {/* Right Side Icons */}
-          <div className="flex items-center relative">
+          <div className="flex items-center gap-4">
 
             {/* Dark Mode */}
             <button
